@@ -8,9 +8,15 @@ td,th{
 	border:1px solid black;
 }
 thead>tr{
-	background-color:deeppink;
+	background-color:brown;
 }
 th{
 	text-align:left;
 	color:white;
+}
+.first_row{
+	color:white;
+}
+tbody>tr:nth-child(odd){
+	background-color:lightpink;
 }
